@@ -25,8 +25,11 @@ def main():
     result = shuffle([1,1,1,5,5,5], 3)
     print(result) # Expected result: [1,5,1,5,1,5]
 
-
-# This 
+# This line of code doesn't really do anything other than call the main
+# function. It ensures that your code actually runs when you execute: 
+# `python main.py`. 
+# See this stackoverflow post for a detailed explanation:
+# https://stackoverflow.com/questions/419163/what-does-if-name-main-do
 if __name__ == "__main__":
     main()
 
